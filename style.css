@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,800&family=Paytone+One&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+
+section {
+    padding: 85px 15% 70px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+    background: #1a142f;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.logo {
+    font-size: 33px;
+    color: white;
+    font-weight: 700;
+}
+
+span {
+    color: rgb(38, 38, 230);
+}
+
+.footer-content h4 {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.footer-content li {
+    margin-bottom: 16px;
+}
+
+.footer-content li a {
+    display: block;
+    color: #d6d6d6;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+.footer-content li a:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: white;
+}
+
+.footer-content p {
+    color: #d6d6d6;
+    font: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.icon a {
+    display: inline-block;
+    font-size: 25px;
+    color: #d6d6d6;
+    margin-right: 20px;
+    transition: all .40s ease;
+}
+
+.icon a:hover {
+    color: white;
+    transform: translateY(-5px);
+}
